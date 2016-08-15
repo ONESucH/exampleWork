@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #fdfdfd;
+}
+.top-container {
+  position: relative;
+  background-color: #3a3d40;
+  padding-bottom: 0.5%;
+  font-family: 'Allerta', sans-serif;
+}
+.top-container ul {
+  display: flex;
+  background: url(../img/logo.png);
+  background-size: 7%;
+  background-position: left 16% center;
+  background-repeat: no-repeat;
+  background-color: #4a4d50;
+  margin: 0;
+}
+.top-container li {
+  display: inline-block;
+  border-left: 1px solid #424547;
+  border-right: 1px solid #424547;
+  color: #b6b6b6;
+  cursor: pointer;
+  padding: 4% 1.5% 2% 1.5%;
+  text-align: center;
+  font-size: 81%;
+}
+.top-container li:hover {
+  background-color: #35373a;
+  color: #7a9cb2;
+}
+.top-container li:nth-child(1) {
+  margin-left: 40%;
+}
+.main-container {
+  position: relative;
+  display: inline-block;
+  padding: 5% 10% 5% 10%;
+}
+.main-container hr {
+  border: 1px dotted #575757;
+  padding: .1%;
+  border-bottom-left-radius: 2px;
+  border-top-right-radius: 2px;
+  margin: 5% 4% 1% 1%;
+}
+.main-container button {
+  margin-top: 3%;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 1% 4%;
+  border: 1px solid #52768c;
+  outline: none;
+  background: linear-gradient(180deg, #8bb5d0, #6c96b1);
+  color: #fff;
+}
+.one-block {
+  position: relative;
+  display: inline-block;
+  width: 32%;
+}
+.one-block ul {
+  display: block;
+}
+.one-block li {
+  display: block;
+  list-style: none;
+  margin: 5% 3% 5% 3%;
+  background-color: #f7f7f7;
+  border: 1px solid #e8e8e8;
+  cursor: pointer;
+  padding-top: 65%;
+  background-image: url(../img/img.png);
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.one-block li hr {
+  margin: 5% 5% 2% 5%;
+  color: #acacac;
+}
+.one-block img {
+  width: 100%;
+  height: auto;
+}
+.one-block p {
+  margin: 0 5% 0 5%;
+  color: #676767;
+  font-size: 85%;
+}
+.one-block i {
+  margin-right: 1%;
+}
+.one-block h2 {
+  font-family: 'Allerta', sans-serif;
+  font-size: 90%;
+  padding: 3% 5% 1% 5%;
+  color: #484848;
+}
+.one-block h5 {
+  margin: 0 3% 0 3%;
+  color: #9f9f9f;
+  padding: 2% 2% 2% 2%;
+}
+.one-block span {
+  margin-left: 45%;
+  color: #a3a3a3;
+}
+.two-block {
+  position: relative;
+  display: inline-block;
+  width: 32%;
+}
+.two-block ul {
+  display: block;
+}
+.two-block li {
+  display: block;
+  list-style: none;
+  margin: 5% 3% 5% 3%;
+  background-color: #f7f7f7;
+  border: 1px solid #e8e8e8;
+  cursor: pointer;
+  padding-top: 65%;
+  background-image: url(../img/img.png);
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.two-block li hr {
+  margin: 5% 5% 2% 5%;
+  color: #acacac;
+}
+.two-block img {
+  width: 100%;
+  height: auto;
+}
+.two-block p {
+  margin: 0 5% 0 5%;
+  color: #676767;
+  font-size: 85%;
+}
+.two-block i {
+  margin-right: 1%;
+}
+.two-block h2 {
+  font-family: 'Allerta', sans-serif;
+  font-size: 90%;
+  padding: 3% 5% 1% 5%;
+  color: #484848;
+}
+.two-block h5 {
+  margin: 0 3% 0 3%;
+  color: #9f9f9f;
+  padding: 2% 2% 2% 2%;
+}
+.two-block span {
+  margin-left: 45%;
+  color: #a3a3a3;
+}
+.three-block {
+  position: relative;
+  display: inline-block;
+  width: 32%;
+}
+.three-block ul {
+  display: block;
+}
+.three-block li {
+  display: block;
+  list-style: none;
+  margin: 5% 3% 5% 3%;
+  background-color: #f7f7f7;
+  border: 1px solid #e8e8e8;
+  cursor: pointer;
+  padding-top: 65%;
+  background-image: url(../img/img.png);
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.three-block li hr {
+  margin: 5% 5% 2% 5%;
+  color: #acacac;
+}
+.three-block img {
+  width: 100%;
+  height: auto;
+}
+.three-block p {
+  margin: 0 5% 0 5%;
+  color: #676767;
+  font-size: 85%;
+}
+.three-block i {
+  margin-right: 1%;
+}
+.three-block h2 {
+  font-family: 'Allerta', sans-serif;
+  font-size: 90%;
+  padding: 3% 5% 1% 5%;
+  color: #484848;
+}
+.three-block h5 {
+  margin: 0 3% 0 3%;
+  color: #9f9f9f;
+  padding: 2% 2% 2% 2%;
+}
+.three-block span {
+  margin-left: 45%;
+  color: #a3a3a3;
+}
+.bottom-container {
+  position: relative;
+  display: inline-flex;
+  background-color: #3a3d40;
+  padding: 2% 7.5% 2% 10%;
+}
+.bottom-container h4 {
+  font-family: 'Allerta', sans-serif;
+  color: #d4d4d4;
+  padding-bottom: 5%;
+}
+.bottom-container p {
+  padding: 4% 20% 5% 0%;
+  font-size: 90%;
+  color: #9d9e9e;
+  line-height: 150%;
+}
+.bottom-container hr {
+  border: 1px dotted #505255;
+  border-radius: 10px;
+  margin: 0 8% 0 0;
+}
+.bottom-container i {
+  margin-right: 5%;
+}
+.bottom-container span {
+  color: #52565a;
+}
+.bottom-container input {
+  border: none;
+  outline: none;
+  background: #27292b;
+  padding: 4.5%;
+  margin: 1% 0 1% 0;
+  color: white;
+}
+.bottom-container textarea {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #27292b;
+  margin-top: 1%;
+  padding: 4%;
+}
+.bottom-container button {
+  display: block;
+  cursor: pointer;
+  padding: 1% 5%;
+  border-radius: 1px;
+  border: 1px solid #52768c;
+  outline: none;
+  background: linear-gradient(180deg, #7694a7, #5a778a);
+  color: #f7f8f9;
+  margin-top: 2%;
+}
+.bottom-container-one-block {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+}
+.bottom-container-two-block {
+  position: relative;
+  width: 25%;
+}
+.bottom-container-two-block span {
+  margin-left: 2%;
+  color: #86acc4;
+}
+.bottom-container-three-block {
+  position: relative;
+  width: 25%;
+}
+.bottom-container-four-block {
+  position: relative;
+  width: 25%;
+}
+.bottom-container-contacts {
+  position: relative;
+  background-color: #2f3235;
+  padding: 2% 0 2% 10.8%;
+}
+.bottom-container-contacts p {
+  display: inline-block;
+  color: #9c9c9d;
+  font-size: 84%;
+}
+.bottom-container-contacts p span {
+  color: #6a8698;
+}
+.contacts {
+  position: relative;
+  display: inline-block;
+  margin-left: 53.8%;
+}
+.contacts img {
+  cursor: pointer;
+}
